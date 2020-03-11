@@ -13,12 +13,12 @@
     <module>jobs/process/alimentation_dwh_0.1</module>
   </modules>
   <properties>
-    <signer.version>7.2.1</signer.version>
     <talend.project.name>DVC</talend.project.name>
-    <encoding>UTF-8</encoding>
     <talend.docker.tag>${project.version}</talend.docker.tag>
-    <maven.deploy.skip>true</maven.deploy.skip>
+    <encoding>UTF-8</encoding>
+    <signer.version>7.2.1</signer.version>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
+    <maven.deploy.skip>true</maven.deploy.skip>
   </properties>
   <build>
     <pluginManagement>
