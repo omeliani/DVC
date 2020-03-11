@@ -17,7 +17,7 @@
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <talend.pigudf.groupid>org.example.dvc.pigudf</talend.pigudf.groupid>
     <talend.job.folder></talend.job.folder>
-    <talend.job.context>Default</talend.job.context>
+    <talend.job.context>Integration</talend.job.context>
     <talend.job.path>dvc/alimentation_dwh_0_1</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.stat>true</talend.job.stat>
